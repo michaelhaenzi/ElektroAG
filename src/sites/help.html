@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Elektro AG - Ohmberechner</title>
+    <link rel="shortcut icon" href="../lib/images/Ohm.png">
+    <link rel="stylesheet" href="../lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/toastr/toastr.css">
+    <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../style/help.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="wrapper">
+      <a href="../index.html"><img id="backIcon" src="../lib/images/back.png"/></a>
+      <header>
+        <div id="headerTitle">
+          <a href="ae.html"><div id="ea">&nbsp;</div></a>
+         </br>
+        </div>
+      </header>
+      <h2>Benutzeranleitung</h2>
+      <ol>
+       <li>
+        Die Webseite <a href="http://elektroag.neocities.org/">http://elektroag.neocities.org/</a> aufrufen
+       </li>
+       <li>
+        Anzahl Ringe auswählen, für die der Wiederstand berechnet werden soll</br>
+        <img class="helpImages" src="../lib/images/dropdown.png"/>
+       </li>
+       <li>
+        Auf den schatten des Ringes klicken, bei welchem die Farbe ausgewählt werden soll</br>
+        <img class="helpImages" src="../lib/images/klickOnRing.png"/>
+       </li>
+       <li>
+        Nun die Farbe des Ringes anklicken</br>
+        <img class="helpImages" src="../lib/images/colorSelect.png"/>
+       </li>
+       <li>
+        Wenn für jeden Ring eine Farbe ausgewählt wurde, mit "Ohm berechnen" bestätigen</br>
+        <img class="helpImages" src="../lib/images/klickOhmBerechnen.png"/>
+       </li>
+       <li>
+        Nun wird das Resultat unter dem Button "Ohm berechnen" dargestellt</br>
+        <img class="helpImages" src="../lib/images/result.png"/>
+       </li>
+      </ol>
+      </br>
+      <h2>FAQ</h2>
+      <b>Wenn ich "Ohm berechnen" klicke erscheint der Fehler "Error: Farbe Fehlt"</b></br>
+      Dieser Fehler tritt auf Wenn eine Farbe nicht ausgewählt wurde, um diesen Fehler zu beheben, muss jedem Ring eine Farbe zugeordnet werden.</br>
+      <img class="helpImages" src="../lib/images/error.png"/></br>
+      </br></br>
+      <b>Was Bedeuten die einzelnen Ringe?</b></br>
+      Die einzelen Ringe 1-3 ergeben die Zahlen, der 4. Ring die Anzahl Nullen und der 5. Ring die Tolleranz in %.</br>
+      Die Werte können jeweils aus der folgenden Matrix herausgelesen werden:</br>
+      <img class="helpImages" src="../lib/images/widerstands-farbcode-tabelle.png"/></br>
+      <u>Beispiel:</u></br>
+      "Braun, Blau, Grau, Rot, Silber" </br>
+      "1, 6, 8, 2, 10%" </br>
+      168 und 00 mit 10% Tolleranz</br>
+      16800 Ohm mit 10% Tolleranz</br>
+      </br></br>
+      <b>Wenn ich auf den Ring klicke, um eine Farbe auszuwählen, passiert nichts</b></br>
+      Dies kann daran liegen, dass JavaScript deaktiviert ist.</br>
+      JavaScript kann meist in den Browsereinstellungen aktiviert werden.</br>
+      </br>
+    </div>
+    <footer class="footerBottom">
+        &copy; Copyright made in Switzerland
+      </footer>
+    <div class="scripts">
+    <script>
+      document.getElementById('ea').style.top=(Math.random() * (95 - 5) + 5) + "%";
+      document.getElementById('ea').style.left=(Math.random() * (95 - 5) + 5) + "%";
+    </script>
+    </div>
+  </body>
+</html>
+ 

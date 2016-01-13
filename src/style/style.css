@@ -1,0 +1,266 @@
+/*******************************************/
+/*        Elektro AG Style - v-0.1         */
+/* Michael Haenzi, Tim Pfister, Ivo Keller */
+/*              02.11.2015                 */
+/*******************************************/
+
+/** Elements **/
+body {
+  background-color: #d6d6d6;
+}
+
+/** IDs **/
+#wrapper {
+  background-color: #FFFFFF;
+  margin: 5% 10%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 1% 5%;
+}
+
+#wrapper h1 {
+  text-align: center;
+}
+
+
+
+/** Classes **/
+.clear {
+  clear: both;
+}
+
+.selectableColor {
+  margin: 2.5px 5px;
+  float: left;
+}
+
+.selectableColor div {
+  height: 30px;
+  width: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.colorPicker ul {
+  list-style-type: none;
+}
+/*Color Picker*/
+div.black {
+  background-color: black;
+}
+div.brown {
+  background-color: brown;
+}
+div.red {
+  background-color: red;
+}
+div.orange {
+  background-color: orange;
+}
+div.yellow {
+  background-color: yellow;
+}
+div.green {
+  background-color: green;
+}
+div.blue {
+  background-color: blue;
+}
+div.purple {
+  background-color: purple;
+}
+div.grey {
+  background-color: grey;
+}
+div.white {
+  background-color: white;
+}
+div.gold {
+  background-color: gold;
+}
+div.silver {
+  background-color: silver;
+}
+
+/*Darstellung vom Widerstand*/
+div#displayOhm {
+  background-image: url("../lib/images/Wiederstand.png"); 
+  background-size: 100%;                   
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0%;
+  width: 40%;
+  text-align:center;
+}
+div.ring_black {
+  background-image:url("../lib/images/color_black.png"); 
+}
+div.ring_brown {
+  background-image:url("../lib/images/color_brown.png"); 
+}
+div.ring_red {
+  background-image:url("../lib/images/color_red.png"); 
+}
+div.ring_orange {
+  background-image:url("../lib/images/color_orange.png"); 
+}
+div.ring_yellow {
+  background-image:url("../lib/images/color_yellow.png"); 
+}
+div.ring_green {
+  background-image:url("../lib/images/color_green.png"); 
+}
+div.ring_blue {
+  background-image:url("../lib/images/color_blue.png"); 
+}
+div.ring_purple { 
+  background-image:url("../lib/images/color_violett.png"); 
+}
+div.ring_grey {
+  background-image:url("../lib/images/color_grey.png"); 
+}
+div.ring_white {
+  background-image:url("../lib/images/color_white.png"); 
+}
+div.ring_gold {
+  background-image:url("../lib/images/color_gold.png"); 
+}
+div.ring_silver {
+  background-image:url("../lib/images/color_silver.png"); 
+}
+.ring_standart {
+  background-image:url("../lib/images/color_standart.png");
+  /*border: 1px solid rgba(0, 0, 0, .2);*/
+}
+
+div.ring {
+  float:left; 
+  margin-left: 2%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  padding-top: 7.7%;
+  padding-bottom: 9%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+  /* To Set the size of the Content to 0*/
+  font-size: 0%;
+}
+
+#selectableRing1 {
+  margin-left: 35%; 
+}
+
+img.ring {
+  height: 100%;
+  margin-right:2%;
+}
+img.toleranceRing {
+  margin-right:0px; 
+}
+
+#ea {
+ position: absolute;
+ font-size: 400%;
+ padding: 1%;
+ left: 5%;
+ top: 30%;
+}
+
+#ring_wrapper {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+/*Bootstrap Anpassungen*/
+select.form-control {
+  width:80%;
+}
+
+/* Help Image Formatting */
+#helpIcon {
+  width: 3%;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+#helpIcon:hover {
+  background-image: url("../lib/images/help_hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#backIcon {
+  width: 3%;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+#backIcon:hover {
+  background-image: url("../lib/images/back_hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Footer */
+.footer {
+  display: block;
+  width: 100%;
+  font-size: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  background-color: rgba(200,200,200,0.6);
+  text-align: center;
+}
+/* Scrolling Page*/
+.footerBottom {
+  display: block;
+  width: 100%;
+  font-size: 100%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  background-color: rgba(200,200,200,0.6);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Elektro AG - Ohmberechner</title>
+    <link rel="shortcut icon" href="./lib/images/Ohm.png">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/toastr/toastr.css">
+    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="wrapper">
+      <a href="./sites/help.html"><img id="helpIcon" src="./lib/images/help.png"/></a>
+      <header>
+        <div id="headerTitle">
+         <h1>Elektro AG - Ohmberechner</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div id="inputOhm">
+		  <select id="selectRings" class="form-control">
+  			<option value="0">Anzahl Ringe</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		  </select>
+        </div>
+        <div id="displayOhm">
+          <div id="ring_wrapper">
+            <div id="ring_wrapper">
+              <div class="ring selectableRing ring_standart" id="selectableRing1">&nbsp;</div>
+              <div class="ring selectableRing ring_standart" id="selectableRing2">&nbsp;</div>
+              <div class="ring selectableRing ring_standart" id="selectableRing3">&nbsp;</div>
+              <div class="ring ring_standart" id="multiplierRing">&nbsp;</div>
+  		        <div class="ring ring_standart" id="toleranceRing">&nbsp;</div>
+  		      </div>
+		      </div>
+		      <div class="clear"></div>
+        </div>
+        <div id="resultOhm"></div>
+          <button class="btn btn-default" id="calcOhm">Ohm berechnen</button>
+          <p id="resultOhmText"></p>
+        </div>
+    </div>
+    
+    <div class="scripts">
+      <script src="./lib/jquery/jquery-1.11.3.min.js"></script>
+      <script src="./lib/toastr/toastr.js"></script>
+      <script src="./lib/overlay/overlay.js"></script>
+      <script src="./js/main.js"></script>
+    </div>
+  </body>
+  <footer class="footer">
+    &copy; Copyright made in Switzerland
+  </footer>
+</html>
